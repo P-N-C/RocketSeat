@@ -1,11 +1,4 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Curso Javascript</title>
-    </head>
-    <body>
-        <script>
-            var div = document.createElement('div');
+var div = document.createElement('div');
             div.setAttribute('id', 'app')
             var nlist = document.createElement('ul');
             nlist.setAttribute('id', 'listinha')
@@ -36,7 +29,3 @@
             for(const nome of nomes) {
                 addOnList(nome);
             }
-            
-        </script>
-    </body>
-</html>
