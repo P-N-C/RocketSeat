@@ -6,9 +6,16 @@
   "dependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
     "@babel/preset-env": "^7.12.1"
   },
   "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js"
+    "conceitosex1": "babel ./Conceitos/Exercicio1/main.js -o ./Conceitos/Exercicio1/bundle.js -w",
+    "conceitosex2": "babel ./Conceitos/Exercicio2/main.js -o ./Conceitos/Exercicio2/bundle.js -w",
+    "conceitosex3": "babel ./Conceitos/Exercicio3/main.js -o ./Conceitos/Exercicio3/bundle.js -w",
+    "conceitosex4": "babel ./Conceitos/Exercicio4/main.js -o ./Conceitos/Exercicio4/bundle.js -w",
+    "conceitosex5": "babel ./Conceitos/Exercicio5/main.js -o ./Conceitos/Exercicio5/bundle.js -w",
+    "conceitosex6": "babel ./Conceitos/Exercicio6/main.js -o ./Conceitos/Exercicio6/bundle.js -w",
+    "conceitosex7": "babel ./Conceitos/Exercicio7/main.js -o ./Conceitos/Exercicio7/bundle.js -w"
   }
 }
